@@ -93,7 +93,7 @@ def main():
             sys.exit()
 
     setup(
-        name="nylas",
+        name="nylas-legacy",
         version=VERSION,
         packages=find_packages(),
         install_requires=RUN_DEPENDENCIES,
@@ -103,17 +103,15 @@ def main():
         cmdclass={"test": PyTest},
         author="Nylas Team",
         author_email="support@nylas.com",
-        description="Python bindings for Nylas, the next-generation email platform.",
+        description="Python bindings for the Nylas API v2 (legacy).",
         license="MIT",
         keywords="inbox app appserver email nylas contacts calendar",
-        url="https://github.com/nylas/nylas-python",
+        url="https://github.com/nylas/nylas-python-legacy",
         long_description_content_type="text/markdown",
         long_description="""
-# Nylas REST API Python bindings
-![Build Status](https://github.com/nylas/nylas-python/workflows/Test/badge.svg)
-[![Code Coverage](https://codecov.io/gh/nylas/nylas-python/branch/main/graph/badge.svg)](https://codecov.io/gh/nylas/nylas-python)
+# Nylas API v2 (Legacy) Python bindings
 
-Python bindings for the Nylas REST API. https://www.nylas.com/docs
+Python bindings for the Nylas API v2.
 
 The Nylas APIs power applications with email, calendar, and contacts CRUD and bi-directional sync from any inbox in the world.
 
