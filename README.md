@@ -2,36 +2,22 @@
     <img src="https://brand.nylas.com/assets/downloads/logo_horizontal_png/Nylas-Logo-Horizontal-Blue_.png" alt="Aimeos logo" title="Aimeos" align="right" height="60" />
 </a>
 
-# Nylas Python SDK
+# Nylas Python SDK (Legacy/API v2)
 
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/nylas/nylas-python/Test)](https://github.com/nylas/nylas-python/actions/workflows/test.yml)
-[![codecov](https://codecov.io/gh/nylas/nylas-python/branch/main/graph/badge.svg?token=HyxGAn5bJR)](https://codecov.io/gh/nylas/nylas-python)
-
-This is the GitHub repository for the Nylas Python SDK and this repo is primarily for anyone who wants to make contributions to the SDK or install it from source. If you are looking to use Python to access the Nylas Email, Calendar, or Contacts API you should refer to our official [Python SDK Quickstart Guide](https://docs.nylas.com/docs/quickstart-python).
-
-The Nylas Communications Platform provides REST APIs for [Email](https://docs.nylas.com/docs/quickstart-email), [Calendar](https://docs.nylas.com/docs/quickstart-calendar), and [Contacts](https://docs.nylas.com/docs/quickstart-contacts), and the Python SDK is the quickest way to build your integration using Python
-
-Here are some resources to help you get started:
-
-- [Nylas SDK Tutorials](https://docs.nylas.com/docs/tutorials)
-- [Get Started with the Nylas Communications Platform](https://docs.nylas.com/docs/getting-started)
-- [Sign up for your Nylas developer account.](https://nylas.com/register)
-- [Nylas API Reference](https://docs.nylas.com/reference)
-
-If you have a question about the Nylas Communications Platform, please reach out to support@nylas.com to get help.
+This is the legacy version of the Nylas Python SDK, which supports the Nylas API v2. This version of the SDK is currently in maintenance mode and is supported for the purpose of assisting with migration to the new API v3. We recommend migrating and using the current [Nylas Python SDK](https://www.github.com/nylas/nylas-python) for the latest and greatest features.
 
 ## ⚙️ Install
 
 The Nylas Python SDK is available via pip:
 
 ```bash
-pip install nylas
+pip install nylas-legacy
 ```
 
 To install the SDK from source, clone this repo and run the install script.
 
 ```bash
-git clone https://github.com/nylas/nylas-python.git && cd nylas-python
+git clone https://github.com/nylas/nylas-python-legacy.git && cd nylas-python-legacy
 python setup.py install
 ```
 
@@ -67,8 +53,6 @@ To learn more about how to use the Nylas Python SDK, please refer to our [Python
 ## 💙 Contributing
 
 Please refer to [Contributing](Contributing.md) for information about how to make contributions to this project. We welcome questions, bug reports, and pull requests.
-
-Taking part in Hacktoberfest 2023 (i.e. issue is tagged with `hacktoberfest`)? Read our [Nylas Hacktoberfest 2023 contribution guidelines](https://github.com/nylas-samples/nylas-hacktoberfest-2023/blob/main/readme.md).
 
 ## 📝 License
 
