@@ -2,7 +2,7 @@ import json
 from datetime import datetime, timedelta
 import pytest
 from urlobject import URLObject
-from nylas.client.restful_models import Event
+from nylas_legacy.client.restful_models import Event
 
 
 def blank_event(api_client):

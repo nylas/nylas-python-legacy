@@ -1,8 +1,8 @@
 from copy import copy
 
-from nylas.client.restful_model_collection import RestfulModelCollection, CHUNK_SIZE
-from nylas.client.restful_models import NylasAPIObject
-from nylas.utils import AuthMethod
+from nylas_legacy.client.restful_model_collection import RestfulModelCollection, CHUNK_SIZE
+from nylas_legacy.client.restful_models import NylasAPIObject
+from nylas_legacy.utils import AuthMethod
 from enum import Enum
 
 

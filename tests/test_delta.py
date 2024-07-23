@@ -1,8 +1,8 @@
 import pytest
 from urlobject import URLObject
 
-from nylas.client.delta_models import Deltas, Delta
-from nylas.client.restful_models import (
+from nylas_legacy.client.delta_models import Deltas, Delta
+from nylas_legacy.client.restful_models import (
     Contact,
     File,
     Message,

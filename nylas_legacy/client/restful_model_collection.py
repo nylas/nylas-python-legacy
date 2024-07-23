@@ -1,5 +1,5 @@
 from copy import copy
-from nylas.utils import convert_metadata_pairs_to_array
+from nylas_legacy.utils import convert_metadata_pairs_to_array
 
 CHUNK_SIZE = 50
 
@@ -8,7 +8,7 @@ class RestfulModelCollection(object):
     def __init__(self, cls, api, filter=None, offset=0, **filters):
         if filter:
             filters.update(filter)
-        from nylas.client import APIClient
+        from nylas_legacy.client import APIClient
 
         if not isinstance(api, APIClient):
             raise Exception("Provided api was not an APIClient.")
@@ -113,7 +113,7 @@ class RestfulModelCollection(object):
     def search(
         self, q, limit=None, offset=None, view=None
     ):  # pylint: disable=invalid-name
-        from nylas.client.restful_models import (
+        from nylas_legacy.client.restful_models import (
             Message,
             Thread,
         )  # pylint: disable=cyclic-import

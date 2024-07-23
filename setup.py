@@ -6,7 +6,7 @@ from setuptools.command.test import test as TestCommand
 
 
 VERSION = ""
-with open("nylas-legacy/_client_sdk_version.py", "r") as fd:
+with open("nylas_legacy/_client_sdk_version.py", "r") as fd:
     VERSION = re.search(
         r'^__VERSION__\s*=\s*[\'"]([^\'"]*)[\'"]', fd.read(), re.MULTILINE
     ).group(1)

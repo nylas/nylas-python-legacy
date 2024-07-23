@@ -11,12 +11,12 @@ import requests
 from urlobject import URLObject
 import six
 from six.moves.urllib.parse import urlencode
-from nylas._client_sdk_version import __VERSION__
-from nylas.client.delta_collection import DeltaCollection
-from nylas.client.errors import MessageRejectedError, NylasApiError, RateLimitError
-from nylas.client.outbox_models import Outbox
-from nylas.client.restful_model_collection import RestfulModelCollection
-from nylas.client.restful_models import (
+from nylas_legacy._client_sdk_version import __VERSION__
+from nylas_legacy.client.delta_collection import DeltaCollection
+from nylas_legacy.client.errors import MessageRejectedError, NylasApiError, RateLimitError
+from nylas_legacy.client.outbox_models import Outbox
+from nylas_legacy.client.restful_model_collection import RestfulModelCollection
+from nylas_legacy.client.restful_models import (
     Calendar,
     Contact,
     Event,
@@ -35,12 +35,12 @@ from nylas.client.restful_models import (
     Webhook,
     Send,
 )
-from nylas.client.neural_api_models import Neural
-from nylas.client.scheduler_restful_model_collection import (
+from nylas_legacy.client.neural_api_models import Neural
+from nylas_legacy.client.scheduler_restful_model_collection import (
     SchedulerRestfulModelCollection,
 )
-from nylas.client.authentication_models import Authentication
-from nylas.utils import timestamp_from_dt, create_request_body, AuthMethod, HttpMethod
+from nylas_legacy.client.authentication_models import Authentication
+from nylas_legacy.utils import timestamp_from_dt, create_request_body, AuthMethod, HttpMethod
 
 DEBUG = environ.get("NYLAS_CLIENT_DEBUG")
 API_SERVER = "https://api.nylas.com"

@@ -2,8 +2,8 @@ from datetime import datetime
 
 import pytest
 from urlobject import URLObject
-from nylas.client.restful_models import Message, Draft, Label
-from nylas.utils import timestamp_from_dt
+from nylas_legacy.client.restful_models import Message, Draft, Label
+from nylas_legacy.utils import timestamp_from_dt
 
 
 @pytest.mark.usefixtures("mock_threads")

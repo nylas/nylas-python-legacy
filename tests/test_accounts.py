@@ -1,6 +1,6 @@
 from datetime import datetime
 import pytest
-from nylas.client.restful_models import Account, APIAccount, SingletonAccount
+from nylas_legacy.client.restful_models import Account, APIAccount, SingletonAccount
 
 
 def test_create_account(api_client, monkeypatch):

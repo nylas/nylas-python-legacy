@@ -5,9 +5,9 @@ from collections import defaultdict
 from enum import Enum
 
 from six import StringIO
-from nylas.client.restful_model_collection import RestfulModelCollection
-from nylas.client.errors import FileUploadError, UnSyncedError, NylasApiError
-from nylas.utils import timestamp_from_dt, AuthMethod
+from nylas_legacy.client.restful_model_collection import RestfulModelCollection
+from nylas_legacy.client.errors import FileUploadError, UnSyncedError, NylasApiError
+from nylas_legacy.utils import timestamp_from_dt, AuthMethod
 
 # pylint: disable=attribute-defined-outside-init
 

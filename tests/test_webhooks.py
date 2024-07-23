@@ -3,7 +3,7 @@ import json
 import pytest
 from urlobject import URLObject
 
-from nylas.client.restful_models import Webhook
+from nylas_legacy.client.restful_models import Webhook
 
 
 @pytest.mark.usefixtures("mock_webhooks")

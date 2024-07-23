@@ -2,7 +2,7 @@ import json
 from datetime import date
 import pytest
 from six import binary_type
-from nylas.client.restful_models import Contact
+from nylas_legacy.client.restful_models import Contact
 
 
 @pytest.mark.usefixtures("mock_contacts")
