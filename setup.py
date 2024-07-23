@@ -6,7 +6,7 @@ from setuptools.command.test import test as TestCommand
 
 
 VERSION = ""
-with open("nylas/_client_sdk_version.py", "r") as fd:
+with open("nylas-legacy/_client_sdk_version.py", "r") as fd:
     VERSION = re.search(
         r'^__VERSION__\s*=\s*[\'"]([^\'"]*)[\'"]', fd.read(), re.MULTILINE
     ).group(1)
@@ -65,7 +65,7 @@ class PyTest(TestCommand):
 def main():
     # A few handy release helpers.
     # For publishing you should install the extra 'release' dependencies
-    # by running: pip install nylas['release']
+    # by running: pip install nylas-legacy['release']
     if len(sys.argv) > 1:
         if sys.argv[1] == "publish":
             try:
@@ -88,7 +88,7 @@ def main():
             except FileNotFoundError as e:
                 print(
                     "Error encountered: {}.\n\n".format(e),
-                    "Did you install the extra 'release' dependencies? (pip install nylas['release'])",
+                    "Did you install the extra 'release' dependencies? (pip install nylas-legacy['release'])",
                 )
             sys.exit()
 
