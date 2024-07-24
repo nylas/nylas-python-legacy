@@ -31,7 +31,7 @@ Next, in your python script, import the `APIClient` class from the `nylas` packa
 
 
 ```python
-from nylas import APIClient
+from nylas_legacy import APIClient
 
 nylas = APIClient(
     CLIENT_ID,
