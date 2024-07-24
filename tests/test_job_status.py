@@ -1,7 +1,7 @@
 from datetime import datetime
 
 import pytest
-from nylas.client.restful_models import JobStatus
+from nylas_legacy.client.restful_models import JobStatus
 
 
 @pytest.mark.usefixtures("mock_job_statuses")

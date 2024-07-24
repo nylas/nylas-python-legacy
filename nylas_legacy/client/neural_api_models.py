@@ -1,5 +1,5 @@
-from nylas.client.restful_models import RestfulModel, Message, File, Contact
-from nylas.utils import HttpMethod
+from nylas_legacy.client.restful_models import RestfulModel, Message, File, Contact
+from nylas_legacy.utils import HttpMethod
 import re
 
 

@@ -1,5 +1,5 @@
 import pytest
-from nylas.client.restful_models import Folder, Thread, Message
+from nylas_legacy.client.restful_models import Folder, Thread, Message
 
 
 @pytest.mark.usefixtures("mock_folder")

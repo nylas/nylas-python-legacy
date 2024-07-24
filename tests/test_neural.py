@@ -2,9 +2,9 @@ import json
 from datetime import datetime
 
 import pytest
-from nylas.client.restful_models import File
+from nylas_legacy.client.restful_models import File
 
-from nylas.client.neural_api_models import (
+from nylas_legacy.client.neural_api_models import (
     NeuralSignatureContact,
     NeuralMessageOptions,
     Categorize,

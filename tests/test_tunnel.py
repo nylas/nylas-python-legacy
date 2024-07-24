@@ -9,9 +9,9 @@ else:
 import pytest
 from urlobject import URLObject
 
-from nylas.config import Region
-from nylas.services import tunnel
-from nylas.client.restful_models import Webhook
+from nylas_legacy.config import Region
+from nylas_legacy.services import tunnel
+from nylas_legacy.client.restful_models import Webhook
 
 
 @pytest.mark.usefixtures("mock_create_webhook")

@@ -3,7 +3,7 @@ import json
 import pytest
 from urlobject import URLObject
 
-from nylas.client.authentication_models import Authentication, Integration, Grant
+from nylas_legacy.client.authentication_models import Authentication, Integration, Grant
 
 
 @pytest.mark.usefixtures("mock_integrations")

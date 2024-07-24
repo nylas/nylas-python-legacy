@@ -4,8 +4,8 @@ import json
 import six
 import pytest
 from urlobject import URLObject
-from nylas.client.restful_models import Message
-from nylas.utils import timestamp_from_dt
+from nylas_legacy.client.restful_models import Message
+from nylas_legacy.utils import timestamp_from_dt
 import pytz
 
 

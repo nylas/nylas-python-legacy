@@ -1,8 +1,8 @@
 import copy
 
-from nylas.client.restful_model_collection import RestfulModelCollection
-from nylas.client.restful_models import Scheduler
-from nylas.client.scheduler_models import (
+from nylas_legacy.client.restful_model_collection import RestfulModelCollection
+from nylas_legacy.client.restful_models import Scheduler
+from nylas_legacy.client.scheduler_models import (
     SchedulerTimeSlot,
     SchedulerBookingConfirmation,
 )

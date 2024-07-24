@@ -4,9 +4,9 @@ from six.moves.urllib.parse import parse_qs  # pylint: disable=relative-import
 import pytest
 from urlobject import URLObject
 import responses
-from nylas.client import APIClient
-from nylas.client.restful_models import Contact
-from nylas.utils import AuthMethod
+from nylas_legacy.client import APIClient
+from nylas_legacy.client.restful_models import Contact
+from nylas_legacy.utils import AuthMethod
 
 
 def urls_equal(url1, url2):

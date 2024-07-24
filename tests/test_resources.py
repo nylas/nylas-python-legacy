@@ -1,5 +1,5 @@
 import pytest
-from nylas.client.restful_models import RoomResource
+from nylas_legacy.client.restful_models import RoomResource
 
 
 @pytest.mark.usefixtures("mock_resources")

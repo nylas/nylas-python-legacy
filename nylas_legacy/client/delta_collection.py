@@ -2,7 +2,7 @@ import json
 
 from requests import ReadTimeout
 
-from nylas.client.delta_models import Delta, Deltas
+from nylas_legacy.client.delta_models import Delta, Deltas
 
 
 class DeltaCollection:

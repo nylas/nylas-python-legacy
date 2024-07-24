@@ -4,7 +4,7 @@ import pytest
 import responses
 import six
 from requests import RequestException
-from nylas.client.errors import MessageRejectedError, RateLimitError
+from nylas_legacy.client.errors import MessageRejectedError, RateLimitError
 
 
 def mock_sending_error(

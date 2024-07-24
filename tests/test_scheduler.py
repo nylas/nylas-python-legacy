@@ -3,8 +3,8 @@ from datetime import datetime
 import pytest
 import responses
 
-from nylas.client.restful_models import Scheduler, Calendar
-from nylas.client.scheduler_models import SchedulerTimeSlot, SchedulerBookingRequest
+from nylas_legacy.client.restful_models import Scheduler, Calendar
+from nylas_legacy.client.scheduler_models import SchedulerTimeSlot, SchedulerBookingRequest
 
 
 def blank_scheduler_page(api_client):

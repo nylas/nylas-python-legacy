@@ -1,7 +1,7 @@
 import cgi
 from io import BytesIO
 import pytest
-from nylas.client.errors import FileUploadError
+from nylas_legacy.client.errors import FileUploadError
 
 
 @pytest.mark.usefixtures("mock_files")

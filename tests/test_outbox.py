@@ -4,7 +4,7 @@ import json
 import pytest
 from urlobject import URLObject
 
-from nylas.utils import timestamp_from_dt
+from nylas_legacy.utils import timestamp_from_dt
 
 
 @pytest.mark.usefixtures("mock_outbox")

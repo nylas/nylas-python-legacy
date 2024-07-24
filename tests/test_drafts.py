@@ -3,7 +3,7 @@ from datetime import datetime
 
 import pytest
 from requests import RequestException
-from nylas.utils import timestamp_from_dt
+from nylas_legacy.utils import timestamp_from_dt
 
 # pylint: disable=len-as-condition
 

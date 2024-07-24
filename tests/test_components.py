@@ -2,7 +2,7 @@ from datetime import datetime
 
 import pytest
 
-from nylas.client.restful_models import Component
+from nylas_legacy.client.restful_models import Component
 
 
 def blank_component(api_client):
