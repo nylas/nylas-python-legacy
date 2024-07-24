@@ -8,7 +8,7 @@ import string
 import pytest
 import responses
 from urlobject import URLObject
-from nylas import APIClient
+from nylas_legacy import APIClient
 
 # pylint: disable=redefined-outer-name,too-many-lines
 

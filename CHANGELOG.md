@@ -1,8 +1,9 @@
 nylas-python Changelog
 ======================
 
-Unreleased
+v5.15.0
 ----------------
+* Rename `nylas` to `nylas_legacy` to avoid conflicts with the new Nylas Python SDK
 * Add support for `view` parameter in `Threads.search()`
 
 v5.14.1
