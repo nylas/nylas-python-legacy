@@ -92,8 +92,8 @@ def test_register_webhook(mocked_responses, api_client_with_client_id):
 def test_open_webhook_tunnel(mocker, api_client_with_client_id):
     mock_build = Mock()
     mock_run = Mock()
-    mocker.patch("nylas.services.tunnel._build_webhook_tunnel", mock_build)
-    mocker.patch("nylas.services.tunnel._run_webhook_tunnel", mock_run)
+    mocker.patch("nylas_legacy.services.tunnel._build_webhook_tunnel", mock_build)
+    mocker.patch("nylas_legacy.services.tunnel._run_webhook_tunnel", mock_run)
 
     tunnel.open_webhook_tunnel(api_client_with_client_id, {"region": Region.IRELAND})
 
