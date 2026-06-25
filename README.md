@@ -1,8 +1,10 @@
-<a href="https://www.nylas.com/">
-    <img src="https://brand.nylas.com/assets/downloads/logo_horizontal_png/Nylas-Logo-Horizontal-Blue_.png" alt="Aimeos logo" title="Aimeos" align="right" height="60" />
-</a>
+<img width="100%" alt="Nylas" src="https://github.com/user-attachments/assets/137517ae-244d-47a5-8ca7-b12984971fc4" />
 
 # Nylas Python SDK (Legacy/API v2)
+
+> ⚠️ **This is the legacy v2 Nylas Python SDK, and is no longer maintained.**
+> Nylas API v2 is deprecated. For new projects, use the **[v3 Python SDK](https://github.com/nylas/nylas-python)** —
+> start with the [SDK guide](https://developer.nylas.com/docs/v3/sdks/python/).
 
 This is the legacy version of the Nylas Python SDK, which supports the Nylas API v2. This version of the SDK is currently in maintenance mode and is supported for the purpose of assisting with migration to the new API v3. We recommend migrating and using the current [Nylas Python SDK](https://www.github.com/nylas/nylas-python) for the latest and greatest features.
 
@@ -25,7 +27,7 @@ python setup.py install
 
 To use this SDK, you first need to [sign up for a free Nylas developer account](https://nylas.com/register).
 
-Then, follow our guide to [setup your first app and get your API access keys](https://docs.nylas.com/docs/get-your-developer-api-keys).
+Then, follow our guide to [setup your first app and get your API access keys](https://developer.nylas.com/docs/v3/getting-started/).
 
 Next, in your python script, import the `APIClient` class from the `nylas` package, and create a new instance of this class, passing the variables you gathered when you got your developer API keys. In the following example, replace `CLIENT_ID`, `CLIENT_SECRET`, and `ACCESS_TOKEN` with your values.
 
@@ -48,7 +50,7 @@ message = nylas.messages.first()
 print(message.subject)
 ```
 
-To learn more about how to use the Nylas Python SDK, please refer to our [Python SDK QuickStart Guide](https://docs.nylas.com/docs/quickstart-python) and our [Python tutorials](https://docs.nylas.com/docs/tutorials).
+To learn more about how to use the Nylas Python SDK, please refer to our [Python SDK QuickStart Guide](https://developer.nylas.com/docs/v3/sdks/python/) and our [Python tutorials](https://developer.nylas.com/docs/v3/getting-started/).
 
 ## 💙 Contributing
 
